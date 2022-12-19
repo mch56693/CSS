@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Fascinate+Inline&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+
+body {
+    background-color: #EECCAA;
+}
+
+h1 {
+    font-family: Fascinate Inline;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 15px;
+    font-style: normal;
+}
+
+.intro {
+    text-align: center;
+    font-size: small;
+
+}
+
+.espanol {
+    text-align: right;
+    font-family: Open Sans;
+}
+
+.latin {
+    text-align: left;
+}

@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap');
+
+body {
+    background-color: #C6D9EE;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: justify;
+}
+
+h1 {
+    font-size: 3em;
+    text-align: right;
+}
+
+h2 {
+    font-family: Roboto;
+    font-size: 3em;
+    font-variant: small-caps;
+}
+
+p {
+    line-height: 200%;
+    text-indent: 3em;
+}
+
+b{
+    color: chocolate;
+}
+
+i {
+    background-color: white;
+    color: green;
+}
+
+.comic {
+    color: red;
+    font-size: 1.2em;
+    font-family: "Comic Sans", cursive;
+}
+
+time {
+    color: darkorange;
+}
+
+address {
+    font-size: 0.8em;
+    text-align: center;
+}
