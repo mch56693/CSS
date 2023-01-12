@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Great+Vibes&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ewert&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+
+body {
+    background-color: #c4a45e;
+}
+
+h1 {
+    font-family: 'Ewert', cursive;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 15px;
+    font-style: normal;
+}
+
+.intro {
+    font-family: 'Cedarville Cursive', cursive;
+    text-align: center;
+    font-size: small;
+
+}
+
+cite {
+    text-decoration-line: underline;
+}
+
+.espanol {
+    text-align: right;
+    font-family: 'Cedarville Cursive', cursive;
+    font-size: larger;
+    color: white;
+}
+
+.latin {
+    font-family: 'Great Vibes', cursive;
+    font-weight: bold;
+    font-size: larger;
+    text-align: left;
+}

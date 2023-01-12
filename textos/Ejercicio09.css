@@ -20,11 +20,17 @@ h1 {
 
 }
 
+cite {
+    text-decoration-line: underline;
+}
+
 .espanol {
     text-align: right;
     font-family: Open Sans;
+    color: white;
 }
 
 .latin {
+    font-family: Permanent Marker;
     text-align: left;
 }
