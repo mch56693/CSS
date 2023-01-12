@@ -1,0 +1,30 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #d3dade;
+}
+
+#importante {
+    background-color: white;
+    text-align: end;
+}
+
+p {
+    background-color: #b5c2c8;
+}
+
+h1 {
+    text-transform: uppercase;
+    text-align: center;
+}
+
+h2 {
+    color: #425057;
+    background-color: #7b919d;
+    text-decoration: underline;
+}
+
+h3 {
+    color:#5b6d76;
+    background-color: #98aab3;
+    font-style: italic;
+}

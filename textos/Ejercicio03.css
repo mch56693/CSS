@@ -1,0 +1,33 @@
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+}
+
+del {
+    font-size: 2em;
+    color:blue;
+    vertical-align: -0.75em;
+}
+
+ins {
+    color: #0a0;
+    vertical-align: super;
+}
+
+#importante {
+    font-size: 40px;
+}
+
+.cero {
+    font-size: 0.75;
+    vertical-align: text-top;
+}  
+
+.uno {
+    font-size: 0.75em;
+    vertical-align: top;
+}
+        
+.dos {
+    vertical-align: -0.5em;
+} 
