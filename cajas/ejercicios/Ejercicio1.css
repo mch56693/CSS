@@ -1,0 +1,49 @@
+h1{
+    font-family: sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+blockquote {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.25em;
+}
+
+p {
+    text-align: center;
+}
+
+cite{
+    font-family: "informal roman", "times new roman", serif;
+    font-size: 1.5em;
+}
+
+div {
+    padding: 10px;
+    margin: 20px;
+}
+.cita1{
+    border: 5px dashed gray;
+    background-color: #C6FFFA;
+    color: #32403f;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+.cita3{
+    border: 5px outset #990066;
+    background-color: #ff99ff;
+    color: #660066;
+    margin-right: 50%;
+}
+.cita2{
+    border: 15px outset blue;
+    background-color: #E0EDF3;
+    color: #0000cc;
+    margin-left: 50%;
+}
+.cita4{
+    border: 12px dotted #ff33ff;
+    background-color: #663366;
+    color: white;
+    margin-left: 50%;
+}
