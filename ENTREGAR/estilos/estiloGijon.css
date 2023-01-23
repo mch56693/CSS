@@ -1,0 +1,30 @@
+h1 {
+    background-color: brown;
+    color: white
+}
+
+body{
+    font-family: Arial, sans-serif;
+}
+
+table {
+    border-collapse: collapse;
+    width: 80%;
+}
+
+th,
+td{
+    padding: 0,25em;
+    text-align: left;
+    border: solid 1px #ccc;
+}
+
+.filasColor{
+    background-color: #e2f2f5;
+}
+
+tfoot td{
+    text-align: center;
+    font-style: italic;
+    font-size: 0,75em;
+}
