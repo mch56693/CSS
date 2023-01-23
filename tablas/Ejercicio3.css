@@ -1,0 +1,19 @@
+table {
+    background-color: beige;
+    border-spacing: 10px;
+    border: solid 1px black;
+    width: 300px;
+}
+
+td{
+    border: solid 1px black;
+    background-color: aquamarine;
+}
+
+.hide{
+    empty-cells: hide;
+}
+
+.show{
+    empty-cells: show;
+}

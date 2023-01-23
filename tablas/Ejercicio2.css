@@ -1,0 +1,16 @@
+.horizontal{
+    border-collapse: separate;
+    border-spacing: 5px;
+    border: solid 1px #00f;
+}
+
+.both {
+    border-collapse: separate;
+    border-spacing: 5px 30px;
+    border: solid 1px red;
+}
+
+.black {
+    border: solid 1px #000;
+    padding: 5px;
+}

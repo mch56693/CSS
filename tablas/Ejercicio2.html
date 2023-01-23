@@ -1,47 +1,37 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ejercicio 2 (Tablas)</title>
+    <link rel="stylesheet" type="text/css" href="Ejercicio2.css" title="Color">
+    <title>Ejercicio 2 - TABLAS + CSS</title>
 </head>
+
 <body>
-<table border="1">
-    <caption>Recent Major VOlcanic Eruptions in the Pacific Northwest</caption>
-    <thead>
+    <h1>Ejercicio CSS - Tablas: border-spacing</h1>
+    <table class="horizontal">
         <tr>
-            <th scope="col">Volcano Name</th>
-            <th scope="col">Location</th>
-            <th scope="col">Last Major Eruption</th>
-            <th scope="col">Type of Eruption</th>
-        </tr>
-    </thead> 
-    <tfoot>
-        <tr>
-            <td colspan="4">Compiled in 2008 by Ms Jen</td>
-        </tr>
-    </tfoot>
-    <tbody>
-        <tr>
-            <th scope="row">Mt. Larssen</th>
-            <td>California</td>
-            <td>1914-17</td>
-            <td>Explosive Eruption</td>
+            <td class="black">Estas celdas</td>
+            <td class="black">tienen 5px de espacio horizontal</td>
         </tr>
         <tr>
-            <th scope="row">Mt. Hood</th>
-            <td>Oregon</td>
-            <td>1790s</td>
-            <td>Pyroclastic flows and Mudflows</td>
+            <td class="black">y</td>
+            <td class="black">vertical tb. 5px</td>
+        </tr>
+    </table>
+    <br />
+    <br/>
+    <table class="both">
+        <tr>
+            <td class="black">Estas celdas</td>
+            <td class="black">tienen 5px de espacio horizontal</td>
         </tr>
         <tr>
-            <th scope="row">Mt. St. Helens</th>
-            <td>Washington</td>
-            <td>1980</td>
-            <td>Explosive Eruption</td>
+            <td class="black">y</td>
+            <td class="black">30px en vertical</td>
         </tr>
-    </tbody>
-</table>
+    </table>
 </body>
+
 </html>
