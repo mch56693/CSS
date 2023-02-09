@@ -1,0 +1,27 @@
+body {
+    background-color: #FFE4C4;
+    color: brown;
+}
+form{
+    border: 2px solid brown;
+    width: 60%;
+    padding: 10px;
+}
+input[type=text] {
+    width: 70%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    border: 1px solid brown;
+}
+.etiqueta
+label {
+    font-size: 1.3em;
+    color: brown;
+}
+input [type=submit],
+input [type=reset] {
+    background-color: brown;
+    color: white;
+    margin: 4px 2px;
+    padding: 8px 16px;
+}

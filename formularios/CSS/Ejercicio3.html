@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="Ejercicio3.css" title="Color">
+    <title>FORMULARIOS | EJERCICIO 3</title>
+</head>
+<body>
+    <h1><span class="subrayado">Encuesta televisiva</span></h1>
+
+    <form action="tratar-datos.html" method="get">
+        <fieldset>
+            <legend>Datos personales</legend>
+            <table>
+                <tr>
+                    <td><span class="pregunta">Edad:</span>
+                        <input type="number" id="edad" name="edad" size="4" maxlength="3" min="0" max="150">
+                    </td>
+                    <td colspan="2"><span class="pregunta">Habitantes en la casa:</span>
+                        <select name="habitantes">
+                            <option value="1" selected="selected">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5 o más</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td><span class="pregunta">Sexo:</span>
+                        <input type="radio" value="H" name="sexo" />Hombre
+                        <input type="radio" value="M" name="sexo" />Mujer
+                    </td>
+                    <td colspan="2">
+                        <span class="pregunta">Televisores en la casa:</span>
+                        <input type="radio" value="0" name="nteles" />0
+                        <input type="radio" value="1" name="nteles" />1
+                        <input type="radio" value="2" name="nteles" />2
+                        <input type="radio" value="3" name="nteles" />3
+                        <input type="radio" value="4" name="nteles" />4 o más
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="3">
+                        <span class="pregunta">Lugares en los que hay televisión en casa:</span>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="checkbox" name="comedor" value="comedor" />Comedor
+                    </td>
+                    <td>
+                        <input type="checkbox" name="comedor" value="comedor" />Cocina
+                    </td>
+                    <td>
+                        <input type="checkbox" name="comedor" value="comedor" />Cuarto de baño
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="checkbox" name="comedor" value="comedor" />Dormitorio padres
+                    </td>
+                    <td>
+                        <input type="checkbox" name="comedor" value="comedor" />Dormitorio hijos
+                    </td>
+                    <td>
+                        <input type="checkbox" name="comedor" value="comedor" />Otros
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="button" onclick="alert('Formulario COMPLETADO!')" value="Enviar">
+                        <input type="reset" value="Borrar">
+                    </td>
+                </tr>
+            </table>
+        </fieldset>
+    </form>
+</body>
+</html>
