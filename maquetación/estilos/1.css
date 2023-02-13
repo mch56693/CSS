@@ -1,0 +1,28 @@
+#wrapper{
+    width: 960px;
+    margin: auto;
+}
+header {
+    text-align: center;
+}
+#navDatos{
+    float: left;
+    width: 260px;
+    padding: 0;
+    margin: 0;
+    
+}
+#main{
+    float: left;
+    width: 700px;
+    padding: 0;
+    margin: 0;
+}
+#contenido{
+    list-style-type: none;
+    padding: 0;
+}
+#contenido li{
+    float: left;
+    width: 33.33%;
+}
