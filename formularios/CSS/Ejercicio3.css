@@ -30,7 +30,7 @@ legend{
 td {
     padding: 5px 10px;
 }
-td.der{
+input [type=button], input [type=reset] {
     text-align: right;
 }
 

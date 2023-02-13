@@ -15,29 +15,34 @@
         
         <p>
             <label for="name">Nombre:</label><br>
-            <input type="text" id="name" name="name"><br>
-
+            <input type="text" id="name" name="name">
+            <br/>
             <label for="nif">NIF:</label><br>
-            <input type="text" id="nif" name="nif"><br>
+            <input type="text" id="nif" name="nif">
+            <br/>
         </p>
 
-        <span class="etiqueta">Tipo de Habitación:</span>
-            <br />
+        <p>
+            <span class="etiqueta">Tipo de Habitación:</span>
+            <br>
             <input type="radio" name="habitacionType" value="I" /> Individual
             <br>
             <input type="radio" name="habitacionType" value="D" checked="checked" /> Doble
             <br><br>
+        </p>
 
-        <span class="etiqueta">Opciones:</span>
+        <p>
+            <span class="etiqueta">Opciones:</span>
             <br>
-            <input type="checkbox" id="op1" name="op1" value="type1">
-            <label for="vehicle1"> Desayuno en la habitación</label><br>
-            <input type="checkbox" id="op2" name="op2" value="type2">
-            <label for="vehicle2"> Jacuzzi</label><br>
-            <input type="checkbox" id="op3" name="op3" value="type3">
-            <label for="vehicle3"> Wi-Fi</label><br><br>
+            <input type="checkbox" name="op1" value="type1" />Desayuno en la habitación
+            <br>
+            <input type="checkbox" name="op2" value="type2" />Jacuzzi
+            <br>
+            <input type="checkbox" name="op3" value="type3" checked="checked" />Wi-Fi
+            <br><br>
 
-            <input type="submit" onclick="alert('Formulario COMPLETADO!')" value="Enviar">
+        </p> 
+            <input type="submit" value="Enviar">
             <input type="reset" value="Borrar">
     </form>
 </body>
