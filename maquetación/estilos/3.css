@@ -1,5 +1,5 @@
 #wrapper{
-    width: 960px;
+    width: 80%;
     margin: 0 auto;
 }
 header {
@@ -7,14 +7,14 @@ header {
 }
 #navDatos{
     float: left;
-    width: 260px;
+    width: 25%;
     padding: 0;
     margin: 0;
     
 }
 #main{
     float: left;
-    width: 700px;
+    width: 75%;
     padding: 0;
     margin: 0;
 }
