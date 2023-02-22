@@ -114,7 +114,6 @@ p {
 .tamañoTabla {
     max-width: 900px;
 }
-
 th{
     border-collapse: collapse;
     border: solid 1px brown;
