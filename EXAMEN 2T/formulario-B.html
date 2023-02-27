@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+<body>
+    <h1>Formulario de: Álvaro Fernández</h1>
+
+    <form action="#" method="get">
+
+    <fieldset class="1">
+        <legend>Datos personales</legend>
+        <legend></legend>
+        <label for="nombre">Nombre y Apellidos</label>
+        <input type="text" id="nombre" name="nombre">
+        <br>
+        <label for="email">Email</label>
+        <input type="text" id="pswrd" name="email">
+        <br>
+        <label for="fecha">Fecha de nacimiento:</label>
+        <input type="date" id="fecha" name="fecha">
+        <br>
+        <br>
+    </fieldset>
+
+    <fieldset class="2">
+        <legend>Elige tus favoritos</legend>
+        <p>Asignaturas favoritas (puedes marcar más de una...)</p>
+
+        <select id="asignaturas" name="asignaturas" size="3" multiple>
+            <optgroup>
+                <option value="marcas" selected="selected">Marcas</option>
+                <option value="programación">Programación</option>
+                <option value="bases">Bases de Datos</option>
+                <option value="endes">Entornos de Desarrollo</option>
+                <option value="sisin">Sistemas Informáticos</option>
+            </optgroup>
+        </select>
+        <br><br>
+        <label for="color">Color favorito:</label>
+        <input type="color" id="color" name="color">
+        <br><br>
+    </fieldset>
+
+    <fieldset class="3">
+        <legend>Otros datos</legend>
+        <p>¿Qué plataforma ves?:</p>
+
+        <label for="netflix">Netflix</label>
+        <input type="checkbox" id="netflix" selected="selected" name="netflix">
+        <br>
+        <label for="hbo">HBO</label>
+        <input type="checkbox" id="hbo" name="hbo">
+        <br>
+        <label for="disney">Disney +</label>
+        <input type="checkbox" id="disney" name="hbo">
+        <br>
+        <label for="hbo">Otras</label>
+        <input type="checkbox" id="otras" name="hbo">
+        <br>
+       
+        <p>Escribe el nombre de alguna serie que te haya gustado</p>
+        
+        <textarea rows="5" cols="60" name="series" placeholder="Escribe aquí..."></textarea>
+        <br><br>
+    </fieldset>
+
+    <input type="reset" value="Borrar">
+    <input type="submit" value="Enviar">
+
+    </form>
+</body>
+</html>

@@ -1,0 +1,10 @@
+th{
+    text-transform: uppercase;
+}
+td{
+    padding: 15px;
+}
+.titulo {
+    text-align: left;
+    padding: 0;
+}

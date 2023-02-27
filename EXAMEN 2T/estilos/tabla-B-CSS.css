@@ -1,0 +1,23 @@
+table {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif, Geneva, Verdana, sans-serif;
+    width: 80%;
+    border: solid 1px;
+}
+caption{
+    background-color: black;
+    color: white;
+    font: 2em;
+    text-align: center;
+    border: solid 1px;
+    border-bottom: solid 0px;
+}
+td {
+    border: solid 1px;
+    border-bottom: solid 0px;
+}
+th {
+    width: 200px;
+    font-size: 2em;
+    border: solid 1px;
+    border-bottom: solid 0px;
+}
